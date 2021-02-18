@@ -10,5 +10,83 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
- 	
+    var oferta = 35;
+    var cantidadComprada;
+    var cantidadCompradaParseado;
+    var marcaComprada; 
+    var visualizacionDeResultado;
+    var compraTotal; 
+    var compraConDescuento;
+    var precioFinal;
+    var iibb = 1.1;
+        
+    var descuento; 
+
+    
+    cantidadComprada = txtIdCantidad.value;
+    cantidadCompradaParseado = parseInt (cantidadComprada);
+    marcaComprada = Marca.value;
+
+    compraTotal = oferta * cantidadCompradaParseado;
+    visualizacionDeResultado = document.getElementById("txtIdprecioDescuento").value;
+    descuento = 0.85;
+
+    switch (cantidadCompradaParseado)
+    {
+        case 3:
+            switch (marcaComprada)
+            {
+                case "ArgentinaLuz":
+                    descuento = 0.85;  
+                    break;
+                case "FelipeLamparas":
+                    descuento = 0.9;
+                    break;            
+                default:
+                    descuento = 0.95;
+                    break;
+            }
+            break;
+        
+        case 4:
+            switch (marcaComprada)
+            {
+                case "ArgentinaLuz":
+                case "FelipeLamparas":
+                    descuento = 0.75;                    
+                    break;
+            
+                default:
+                    descuento = 0.8;
+                    break;
+            }
+        
+        case 5:
+            switch (marcaComprada) {
+                case "ArgentinaLuz":
+                    descuento = 0.6;
+                    break;
+            
+                default:
+                    descuento = 0.7;
+                    break;
+            }
+    
+        default:
+            descuento = 0.5;
+            break;
+    }
+    compraConDescuento = compraTotal * descuento;
+    document.getElementById("txtIdprecioDescuento").value = compraConDescuento;
+    
+    if (compraConDescuento > 120)
+    {
+        precioFinal = compraConDescuento * iibb;
+        alert("Usted pagó $" + ((precioFinal-compraConDescuento).toFixed(2)) + " de IIBB. Monto sin impuesto $" + compraConDescuento);
+        document.getElementById("txtIdprecioDescuento").value = precioFinal.toFixed(2);
+    }
+
+    
+    
+    
 }

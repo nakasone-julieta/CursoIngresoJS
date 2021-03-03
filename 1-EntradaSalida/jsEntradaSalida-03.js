@@ -12,3 +12,5 @@ function mostrar()
 /* OTRA FORMA DE HACERLO
 nombre=txtIdNombre.value;
 el ID siempre tiene que ser exactamente igual al de HTML, es una clave */
+
+

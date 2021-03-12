@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Al presionar el  botón, 
 se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
@@ -16,3 +17,13 @@ OTRA OPCIÓN:
 	
 	*/
 
+=======
+/*
+Al presionar el  botón, 
+se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
+function mostrar()
+{
+	alert("hola como estan?");
+}
+
+>>>>>>> a0cee3a710e9769e55f46ef39f53f24d0dda5f77

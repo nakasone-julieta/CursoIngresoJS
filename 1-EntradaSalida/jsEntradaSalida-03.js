@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Debemos lograr tomar un dato por 'ID'
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
@@ -14,3 +15,17 @@ nombre=txtIdNombre.value;
 el ID siempre tiene que ser exactamente igual al de HTML, es una clave */
 
 
+=======
+/*
+Debemos lograr tomar un dato por 'ID'
+y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
+function mostrar()
+{
+	var nombreIngresado;
+	nombreIngresado=txtIdNombre.value;
+	alert("ok");
+
+}
+
+
+>>>>>>> a0cee3a710e9769e55f46ef39f53f24d0dda5f77

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Debemos lograr tomar un nombre con 'prompt' 
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
@@ -20,3 +21,13 @@ function mostrar()
 	//mostrar
 	alert(nombre);
 } 
+=======
+/*
+Debemos lograr tomar un nombre con 'prompt' 
+y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
+function mostrar()
+{
+	alert("ok");
+}
+
+>>>>>>> a0cee3a710e9769e55f46ef39f53f24d0dda5f77

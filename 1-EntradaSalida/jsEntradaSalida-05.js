@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Debemos lograr tomar nombre y edad por ID y mostrarlos concatenados 
 ej.: "Usted se llama José y tiene 66 años" 	*/
@@ -36,3 +37,13 @@ ESTE NO FUNCIONA */
 }
 
 //TAMBIEN FUNCIONA CON:  alert(`Usted se llama ${nombre} y tiene ${edad}`);
+=======
+/*
+Debemos lograr tomar nombre y edad por ID y mostrarlos concatenados 
+ej.: "Usted se llama José y tiene 66 años" 	*/
+function mostrar()
+{	
+	alert("ok");
+}
+
+>>>>>>> a0cee3a710e9769e55f46ef39f53f24d0dda5f77

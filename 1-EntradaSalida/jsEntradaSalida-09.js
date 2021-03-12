@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Debemos lograr tomar el importe por ID ,
 transformarlo a entero (parseInt), luego
@@ -33,3 +34,15 @@ function mostrarAumento()
 	txtIdResultado.value = sueldoResultado;
 
 }
+=======
+/*
+Debemos lograr tomar el importe por ID ,
+transformarlo a entero (parseInt), luego
+mostrar el importe con un aumento del 10 %
+en el cuadro de texto "RESULTADO".*/
+function mostrarAumento()
+{
+
+	alert("ok");
+}
+>>>>>>> a0cee3a710e9769e55f46ef39f53f24d0dda5f77

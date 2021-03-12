@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt) y Sumarlos.
@@ -47,3 +48,14 @@ function sumar()
 
 }
 
+=======
+/*
+Debemos lograr tomar Los numeros por ID ,
+transformarlos a enteros (parseInt) y Sumarlos.
+mostrar el resulto por medio de "ALERT"*/
+function sumar()
+{
+	alert("ok");
+}
+
+>>>>>>> a0cee3a710e9769e55f46ef39f53f24d0dda5f77
